@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-qbusiness`](https://www.npmjs.com/package/@aws-sdk/client-qbusiness/v/3.997.0).
+[`@aws-sdk/client-qbusiness`](https://www.npmjs.com/package/@aws-sdk/client-qbusiness/v/3.998.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.997.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.998.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-j9KptJA5yJ/mzElC5fcOcpRewucUrGc+eybraj1q8RZc/15exDQI4PtuJVteRYrQ
+sha384-XsFu/2bQe7JT8yI18L6rPnhTAEJkqj6y9vjaCl5JynWjhd14qN2spsre1oG80v7V
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-qbusiness": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.997.0/index.min.mjs"
+            "@aws-sdk/client-qbusiness": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.998.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.997.0/index.min.mjs": "sha384-j9KptJA5yJ/mzElC5fcOcpRewucUrGc+eybraj1q8RZc/15exDQI4PtuJVteRYrQ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.998.0/index.min.mjs": "sha384-XsFu/2bQe7JT8yI18L6rPnhTAEJkqj6y9vjaCl5JynWjhd14qN2spsre1oG80v7V"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-qbusiness": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.997.0/index.min.mjs"
+                        "@aws-sdk/client-qbusiness": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.998.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.997.0/index.min.mjs": "sha384-j9KptJA5yJ/mzElC5fcOcpRewucUrGc+eybraj1q8RZc/15exDQI4PtuJVteRYrQ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-qbusiness@3.998.0/index.min.mjs": "sha384-XsFu/2bQe7JT8yI18L6rPnhTAEJkqj6y9vjaCl5JynWjhd14qN2spsre1oG80v7V"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.997.0`)
+* Always pin to a specific version (`@3.998.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-qbusiness/blob/refs/tags/3.997.0/LICENSE
+https://github.com/cloud-sdk-builds/client-qbusiness/blob/refs/tags/3.998.0/LICENSE
 ```
 
 ---
